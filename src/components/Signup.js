@@ -2,7 +2,7 @@ import React from "react";
 
 export const Signup = () => (
   <div>
-    <div className="mainDiv mx-auto">
+    <div className="mainDiv mx-auto p-3">
       <form className="signup-form">
         <div className="form-group row p-1">
           <label for="inputEmail3" className="col-sm-2 col-form-label">

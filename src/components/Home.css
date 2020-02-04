@@ -1,8 +1,0 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
-
-.card {
-    background: url("../assets/Homebg.jpg") fixed;
-    background-size: cover;
-    height: 600px;
-}

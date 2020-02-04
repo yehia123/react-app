@@ -17,18 +17,31 @@
   border: 1px solid red;
 }
 .signup-form {
-  width: 70%;
+  width: 100%;
 }
 .main-feed {
   width: 50%;
   border: 1px solid red;
 }
-* {
-  margin: 0 !important;
-  padding: 0 !important;
+.top-rect {
+  background: #cec1b9;
+  height: 50px;
+  border: 1px solid red;
+}
+.box {
+  border: 1px solid red;
+}
+.card {
+  background: url("../assets/Homebg.jpg") fixed;
+  background-size: cover;
+  height: 600px;
+}
+.jumbo {
+  background: url("../assets/bg.jpg");
+  background-size: cover;
+  height: 100vh;
 }
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
