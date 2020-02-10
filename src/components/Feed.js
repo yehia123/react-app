@@ -1,31 +1,33 @@
 import React from "react";
+import { Desc } from "./Desc";
 
 export const Feed = () => (
   <div className="container">
-    <div className="row top-rect">
-      <p>Row 1</p>
+    <div className="row bg-dark top-rect">
+      <h1 className="mx-auto text-white">
+        Welcome To Jinder! Match submissions with escapes
+      </h1>
     </div>
     <div className="row">
       <div className="col-sm box">
         <ul class="list-group">
-          <li class="list-group-item active">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Morbi leo risus</li>
-          <li class="list-group-item">Porta ac consectetur ac</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li class="list-group-item active">Submissions</li>
+          <li class="list-group-item">Traingle</li>
+          <li class="list-group-item">Arm bar</li>
+          <li class="list-group-item">Foot lock</li>
         </ul>
       </div>
       <div className="col-sm box">
-      <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+        <Desc />
       </div>
-      <div className="col-sm box">One of three columns</div>
+      <div className="col-sm box">
+        <ul class="list-group">
+          <li class="list-group-item active">Counters</li>
+          <li class="list-group-item">Knee Push knee over</li>
+          <li class="list-group-item">Rear Naked Hand Motion</li>
+          <li class="list-group-item">Shove Knee Inside</li>
+        </ul>
+      </div>
     </div>
   </div>
 );

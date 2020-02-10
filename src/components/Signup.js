@@ -1,8 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Signup = () => (
   <div>
-    <div className="mainDiv mx-auto p-3">
+    <div className="text-center mt-5">
+      <h1>Log In With Your Gmail account</h1>
+    </div>
+    <div className="mainDiv mx-auto p-3 mt-5">
       <form className="signup-form">
         <div className="form-group row p-1">
           <label for="inputEmail3" className="col-sm-2 col-form-label">
@@ -26,9 +30,11 @@ export const Signup = () => (
         </div>
         <div className="form-group row">
           <div className="mx-auto">
-            <button type="submit" className="btn btn-primary">
-              Sign in
-            </button>
+            <Link to="/feed">
+              <button type="submit" className="btn btn-primary">
+                Sign in
+              </button>
+            </Link>
           </div>
         </div>
       </form>
