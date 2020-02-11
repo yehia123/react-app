@@ -10,7 +10,7 @@ export const Desc = () => (
             type="button"
             data-toggle="collapse"
             data-target="#collapseOne"
-            aria-expanded="true"
+            area-expanded="False"
             aria-controls="collapseOne"
           >
             Collapsible Group Item #1
