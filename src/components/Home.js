@@ -4,12 +4,13 @@ import "./Home.less";
 
 export const Home = () => (
   <div>
-    <div className="card text-center mx-auto">
-      <div className="container jumbotron-fluid">
-        <h1 className="display-4 mb-5">Jiu Jitsu Moves</h1>
+    <div className="text-center mx-auto image-bg">
+      <div className="container">
+        <h1 className="display-4 mb-5">Jiu Jitsu Wiki</h1>
         <p className="lead">
           Sign Up and join the BJJ community by exploring different moves and
-          submissions
+          submissions and give your feedback and tell us about your favorite
+          moves!
         </p>
         <Link to="/signup">
           <button type="button" className="btn btn-primary">
