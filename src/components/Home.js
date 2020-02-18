@@ -7,10 +7,10 @@ export const Home = () => (
     <div className="text-center mx-auto image-bg">
       <div className="container">
         <h1 className="display-4 mb-5">Jiu Jitsu Wiki</h1>
-        <p className="lead">
+        <p className="Title">
           Sign Up and join the BJJ community by exploring different moves and
-          submissions and give your feedback and tell us about your favorite
-          moves!
+          submissions and checkout the feed of different feedback people
+          practicing
         </p>
         <Link to="/signup">
           <button type="button" className="btn btn-primary">
